@@ -62,7 +62,7 @@
 }
 
 .navbar-default  {
-    background-color: #0000006e;
+    background-color: #060606;
     border: none;
     /* border-color: #E7E7E7; */
     margin-bottom: 70px;
@@ -115,13 +115,14 @@ body {
  }
 
  .contact {
-    background-color: #ffffff;
-    border: 1px solid #bdbdbd;
+    /* background-color: #ffffff; */
+    /* border: 1px solid #bdbdbd; */
     margin-bottom: 110px;
     padding: 0px 16px; 
 }
 
 .contact h1 {
+    color: #fc0;
     border-bottom: 2px solid #bdbdbd;
     margin-bottom: 0px;
     padding-bottom: 25px;
@@ -151,8 +152,6 @@ body {
 }
 
 .portfolio {
-    background-color: #ffffff;
-    border: 1px solid #bdbdbd;
     padding: 0px 16px;
 }
 
@@ -167,7 +166,7 @@ body {
 
 .contact-form {
     color: #777777;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 20px;
 }
 
@@ -198,7 +197,8 @@ body {
 
 
 .portfolio img {
-    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 40px;
+    border: solid 1px grey;
     margin-bottom: 40px;
 }
 
@@ -208,17 +208,18 @@ body {
 }
 
 .social {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     text-align: center;
     margin-bottom: 35px;
     padding-bottom: 35px;
-    border: 1px solid #bdbdbd;
+    /* border: 1px solid #bdbdbd; */
     padding: 0px 16px 20px 16px;    
 }
 
 .social-header {
-    background-color: #ffffff;
-    border-bottom: 2px solid #bdbdbd;
+    color: #fc0;
+    /* background-color: #ffffff; */
+    /* border-bottom: 2px solid #bdbdbd; */
     margin-bottom: 13px;
 }
 
@@ -241,12 +242,12 @@ body {
     font-size: 40px;
 }
 .fa-linkedin:hover {
-    background-color: lightgray;
-    color: #337ab7;
+    background: #007bb5;
+    color: white;
 }
 .fa-slack:hover {
-    background-color: lightgray;
-    color: #02bb79;
+    background: #02bb79;
+    color: white;
 }
 .fa-github:hover {
     background-color: lightgray;
@@ -254,18 +255,21 @@ body {
 }
 
   .fa-linkedin {
-    background: #007bb5;
+    background: #00000000;
     color: white;
+    border: solid 1px white;
 }
   
   .fa-slack {
-    background: #02bb79;
+    background: #00000000;
     color: white;
+    border: solid 1px white;
 }
 
   .fa-github {
-    background: #000000;
+    background: #00000000;
     color: white;
+    border: solid 1px white;
 }
 
 /* ---------------------------- css animation------------------------------------------------------- */
@@ -314,7 +318,7 @@ body {
 } 
 
 .paragraph
-{
+{   
     font-size: 32px;
     margin-top: 20px;
     padding-bottom: 13px;
@@ -457,6 +461,10 @@ span
 
     filter: alpha(opacity=100);
 }
+
+
+/* ----------------------------scroll---------------------------------------------------- */
+
 
 
 
