@@ -34,7 +34,9 @@
 .nav li a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
-    border-left: solid 1px #ffffff;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    /* border-left: solid 1px #ffffff; */
 }
 
 .nav li {
@@ -43,7 +45,7 @@
 }
 
 .nav li:last-child a {
-    border-right: solid 1px #ffffff;
+    /* border-right: solid 1px #ffffff; */
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -123,7 +125,8 @@ body {
 
 .contact h1 {
     color: #fc0;
-    border-bottom: 2px solid #bdbdbd;
+    text-align: center;text-align: center;
+    /* border-bottom: 2px solid #bdbdbd; */
     margin-bottom: 0px;
     padding-bottom: 25px;
     padding-top: 25px;
@@ -181,6 +184,17 @@ body {
     padding-top: 16px; */
 }
 
+.submit {
+    color: #fff;
+    background-color: #00000000;
+    border-color: #ffffff;
+}
+.submit:hover {
+    color: #000000;
+    background-color: #fc0;
+    border-color: #000000;
+}
+
 
 
 
@@ -232,6 +246,16 @@ body {
     margin: 5px 2px;
 }
 
+.fa-home {
+    padding: 0px 0px;
+}
+.fa-briefcase {
+    padding: 0px 0px;
+}
+.fa-envelope {
+    padding: 0px 0px;
+}
+
 .fa-linkedin:before {
     font-size: 40px;
 }
@@ -270,6 +294,16 @@ body {
     background: #00000000;
     color: white;
     border: solid 1px white;
+}
+
+.fa-home:before {
+    font-size: 32.5px;
+}
+.fa-briefcase:before {
+    font-size: 30px;
+}
+.fa-envelope:before {
+    font-size: 30px;
 }
 
 /* ---------------------------- css animation------------------------------------------------------- */
