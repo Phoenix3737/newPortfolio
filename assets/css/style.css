@@ -88,7 +88,7 @@
 } */
    
 body {
-    background-image: url("https://elevateyourexperiences.com/wp-content/uploads/2018/02/elevate-website-background.jpg"), url("C:/Users/Mark/Desktop/newPortfolio/assets/images/elevate-website-background.jpg");
+    background-image: url("../../assets/images/background-top.jpg"), url("../../assets/images/background-bottom.jpg");
     margin: 0px;
 
     background-repeat: no-repeat;
