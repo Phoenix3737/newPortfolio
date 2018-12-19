@@ -88,12 +88,13 @@
 } */
    
 body {
-    background-image: url("../../assets/images/background-top.jpg"), url("../../assets/images/background-bottom.jpg");
+    background-image: url("../../assets/images/background-top.jpg"), url("../../assets/images/background-bottom.jpg"), url("../../assets/images/background-top.jpg");
     margin: 0px;
 
-    background-repeat: no-repeat;
-    background-position: center top, center bottom;
+    
+    background-position: 0px 0px, 0px 843px, 0px 1686px;
     background-size: 100% auto;
+    background-repeat: no-repeat, no-repeat, no-repeat;
     /* background-color: #01102b; */
 }
 
@@ -116,7 +117,7 @@ body {
  .contact {
     background-color: #ffffff;
     border: 1px solid #bdbdbd;
-    margin-bottom: 16px;
+    margin-bottom: 110px;
     padding: 0px 16px; 
 }
 
@@ -173,6 +174,7 @@ body {
 .about-p {
     color: #ffffff;
     background-color: #00244400;
+    height: 330px;
     /* border: 1px solid #bdbdbd; */
     margin-top: 175px;
     /* padding-left: 0px;
